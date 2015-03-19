@@ -6,3 +6,4 @@
 4. I am ready for release 2.0
 5. I am ready for release 2.1
 6. Fix issue #1
+7. Fixes #1
