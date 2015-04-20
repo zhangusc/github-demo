@@ -9,5 +9,3 @@
 7. Fixes #1
 
 Made a issue in Issue 1 branch
-
-Best new branch
