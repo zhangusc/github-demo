@@ -7,7 +7,6 @@
 5. I am ready for release 2.1
 6. Fix issue #1
 7. Fixes #1
+8. Edit from master
 
 Made a issue in Issue 1 branch
-
-Best new branch
