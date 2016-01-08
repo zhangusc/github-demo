@@ -41,3 +41,5 @@ what is x
 [Visit GitHub!](https://www.github.com)
 
 http://example.com
+
+test merge commit 2
