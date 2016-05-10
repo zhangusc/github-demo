@@ -44,4 +44,9 @@ http://example.com
 
 test merge commit 2
 
+<<<<<<< HEAD
 13 Pull request
+=======
+12 New on master
+13 new on master 2
+>>>>>>> master

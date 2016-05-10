@@ -6,3 +6,4 @@ Gang is happy
 Gang is excited
 
 Merge commit
+new on master
