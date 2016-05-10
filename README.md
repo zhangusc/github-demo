@@ -44,4 +44,4 @@ http://example.com
 
 test merge commit 2
 
-12 New on master
+13 Pull request
