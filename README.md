@@ -45,3 +45,4 @@ http://example.com
 test merge commit 2
 
 12 New on master
+13 new on master 2
