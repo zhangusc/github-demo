@@ -28,8 +28,8 @@ Check out this neat program I wrote:
 - https://help.github.com/articles/github-flavored-markdown/
 - https://help.github.com/articles/writing-on-github/
 
-# The largest heading 
-## The second largest heading 
+# The largest heading
+## The second largest heading
 
 > Pardon my french
 
@@ -43,3 +43,5 @@ what is x
 http://example.com
 
 test merge commit 2
+
+12 New on master
