@@ -49,3 +49,6 @@ test merge commit 2
 
 
 change from master
+
+change from mergetest
+
