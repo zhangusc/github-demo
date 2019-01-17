@@ -1,6 +1,6 @@
 # GitHub-Demo
 
-## local
+## change in master
 
 ## github - intermediate class
 ### 8/26/2016
