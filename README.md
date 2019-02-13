@@ -21,34 +21,6 @@
 
 Made a issue in Issue 1 branch
 
-Check out this neat program I wrote:
-
-# Markdown example:
-- https://help.github.com/articles/markdown-basics/
-- https://help.github.com/articles/github-flavored-markdown/
-- https://help.github.com/articles/writing-on-github/
-
-# The largest heading
-## The second largest heading
-
-> Pardon my french
-
-```
-x = 0
-x = 2 + 2
-what is x
-```
-[Visit GitHub!](https://www.github.com)
-
-http://example.com
-
-test merge commit 2
-
-12 New on master
-13 new on master 2
-
-
-change from master
-
-change from mergetest
+11 local bug123 conflict
+12 test pull request
 
