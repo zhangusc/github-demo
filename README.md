@@ -1,5 +1,10 @@
 # GitHub-Demo
 
+## change in master
+
+## github - intermediate class
+### 8/26/2016
+
 1. Hello world
 2. I am ready for release 1.0
 3. new feature developed
@@ -15,5 +20,7 @@
 11. local master conflict
 
 Made a issue in Issue 1 branch
+
 11 local bug123 conflict
 12 test pull request
+
