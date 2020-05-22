@@ -18,8 +18,6 @@ jobs:
     name: Ping the site
     steps:
     - name: Check the site
-      id: hello
-      uses: srt32/uptime@master
+      uses: jtalk/url-health-check-action@v1.2
       with:
-        url-to-hit: "http://links.esri.com/mapsforadobecc/winen"
-        expected-statuses: "200,301"
+        url: http://links.esri.com/mapsforadobecc/winen
