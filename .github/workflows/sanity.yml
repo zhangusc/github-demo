@@ -10,8 +10,13 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # Check urls
-    - name: Ping URL
-    - uses: nerdify/ping-action@1.0.0
+  ping_site:
+    runs-on: ubuntu-latest
+    name: Ping the site
+    steps:
+    - name: Check the site
+      id: hello
+      uses: srt32/uptime@master
+      with:
+        url-to-hit: "www.google.com"
+        expected-statuses: "200,301"
