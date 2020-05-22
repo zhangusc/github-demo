@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Sanity URLs check
+name:  Maps for Adobe Production URLs Sanity check
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -15,9 +15,16 @@ on:
 jobs:
   ping_site:
     runs-on: ubuntu-latest
-    name: Ping the site
+    name: Production URLs Sanity check
     steps:
     - name: Check the site
       uses: jtalk/url-health-check-action@v1.2
       with:
-        url: http://links.esri.com/mapsforadobecc/winen
+        url: http://links.esri.com/mapsforadobecc/winen | 
+             http://links.esri.com/mapsforadobecc/macen | 
+             https://www.arcgis.com |
+             https://billing.arcgis.com |
+             https://billingapps.arcgis.com |
+             http://m4ccoauth-ms.esri.com/oauth_callback_2_0.html |
+             https://gisupdates.esri.com/MapsforAdobeCC/current/ |
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map                   
