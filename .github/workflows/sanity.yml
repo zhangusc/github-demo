@@ -5,8 +5,11 @@ name:  Maps for Adobe Production URLs Sanity check
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
+  #push:
+  #  branches:
+  #  - master
   schedule:
-  - cron: "0 * * * *"
+  - cron: "* * * * *"
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,5 +28,8 @@ jobs:
              https://www.arcgis.com |
              https://billing.arcgis.com |
              https://billingapps.arcgis.com |
+             https://doc.arcgis.com/en/maps-for-adobecc/ |
+             http://m4ccoauth-ms.esri.com/oauth_callback_1_5.html |               
              http://m4ccoauth-ms.esri.com/oauth_callback_2_0.html |
-             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map?f=pjson
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_1_5/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson |
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson
