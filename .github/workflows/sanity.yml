@@ -5,11 +5,8 @@ name:  Maps for Adobe Production URLs Sanity check
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches:
-    - master
   schedule:
-  - cron: "* * * * *"
+  - cron: "0 * * * *"
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,7 +18,7 @@ jobs:
       uses: jtalk/url-health-check-action@v1.2
       with:
         max-attempts: 3
-        follow-redirect: yes
+        retry-delay: 5s
         url: http://links.esri.com/mapsforadobecc/winen | 
              http://links.esri.com/mapsforadobecc/macen | 
              https://links.esri.com/mapsforadobecc/latest-release-info | 
