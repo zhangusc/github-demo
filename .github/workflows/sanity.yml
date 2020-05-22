@@ -22,9 +22,9 @@ jobs:
       with:
         url: http://links.esri.com/mapsforadobecc/winen | 
              http://links.esri.com/mapsforadobecc/macen | 
+             https://links.esri.com/mapsforadobecc/latest-release-info | 
              https://www.arcgis.com |
              https://billing.arcgis.com |
              https://billingapps.arcgis.com |
              http://m4ccoauth-ms.esri.com/oauth_callback_2_0.html |
-             https://gisupdates.esri.com/MapsforAdobeCC/current/ |
              https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map                   
