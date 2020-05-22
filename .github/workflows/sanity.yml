@@ -20,6 +20,8 @@ jobs:
     - name: Check the site
       uses: jtalk/url-health-check-action@v1.2
       with:
+        max-attempts: 3
+        follow-redirect: yes
         url: http://links.esri.com/mapsforadobecc/winen | 
              http://links.esri.com/mapsforadobecc/macen | 
              https://links.esri.com/mapsforadobecc/latest-release-info | 
@@ -27,4 +29,4 @@ jobs:
              https://billing.arcgis.com |
              https://billingapps.arcgis.com |
              http://m4ccoauth-ms.esri.com/oauth_callback_2_0.html |
-             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map                   
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map?f=pjson
