@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name:  Maps for Adobe Production URLs sanity check
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule:
+  - cron: "0 * * * *"
+    
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  ping_site:
+    runs-on: ubuntu-latest
+    name: Production URLs sanity check
+    steps:
+    - name: Check the sites
+      uses: jtalk/url-health-check-action@v1.2
+      with:
+        max-attempts: 3
+        retry-delay: 5s
+        url: https://links.esri.com/mapsforadobecc/winen | 
+             https://links.esri.com/mapsforadobecc/macen | 
+             https://links.esri.com/mapsforadobecc/latest-release-info | 
+             https://www.arcgis.com |
+             https://billing.arcgis.com |
+             https://billingapps.arcgis.com |
+             https://doc.arcgis.com/en/maps-for-adobecc/ |
+             https://m4ccoauth-ms.esri.com/oauth_callback_1_5.html |               
+             https://m4ccoauth-ms.esri.com/oauth_callback_2_0.html |
+             https://m4ccoauth-ms.esri.com/oauth_callback_2_1.html |
+             https://m4ccoauth-ms.esri.com/oauth_callback_2_2.html |                            
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_1_5/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson |
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_0/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson |
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_1/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson |
+             https://m4cc-ms.esri.com/arcgis/rest/services/ProductionExportWebMap_2_2/GPServer/Production%20Export%20Web%20Map/submitjob?f=pjson
