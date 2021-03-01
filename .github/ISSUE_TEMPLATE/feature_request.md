@@ -1,20 +1,21 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: User story
+about: Suggest a use scenario
 title: ''
-labels: ''
+labels: A-user story
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Frame the user story in the following format**
+	[Persona]
+	has [use scenario]
+	with [frequency]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Task needed**
+[ ] - UI/UX
+[ ] - Dev
+[ ] - Doc
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Add any other context or screenshots for the user story here.
