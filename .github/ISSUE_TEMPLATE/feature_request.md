@@ -12,11 +12,12 @@ assignees: ''
 	has [use scenario]
 	with [frequency]
 
-**=End user goal:**
+**End user goal:**
 
 **End business goal:**
 
 **Acceptance criteria:**
+
 
 **Task needed**
 [ ] - UI/UX
