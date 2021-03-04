@@ -1,40 +1,31 @@
----
-name: User story
-about: Suggest a use scenario
-title: ''
-labels: A-user story
-assignees: ''
-
----
-
 **User story**
-As a [user persona] I want to [perform some task] so that I can [accomplish a particular goal]
+_As a [user persona] I want to [perform some task] so that I can [accomplish a particular goal]_
 
 <!-- EXAMPLE:
 As a designer, I want to save a copy of my mapboards so I can see which areas have been worked on from previous sessions for projects that require stitching together multiple map extents.
 -->
 
-**End user goal**
+**Business goal**
 
 
-**End business goal**
+**User requests**
+_Add keys stakeholders who request the feature_
 
-
-**Number of user requests**
-
+**Applicable licenses and worflows**
+_License types:  Complimentary | Plus | Viewer/Editor|Creator/GIS Prof|All
+Workflows: AIX | non-AIX | Both_
 
 **Acceptance criteria**
 
 
-**Task needed**
-[ ] - UI/UX
-[ ] - Dev
-[ ] - Doc
+**Tasks needed**
+- [ ] UI/UX
+- [ ] Dev
+- [ ] Doc
 
 **Decisions**
-Add any important decision we make during the communication.
+_Add important decisions we make during the communication._
 
 **Additional context**
-Add any other context or screenshots for the user story here.
-Add a list related issues
-
+_Add any other context or screenshots for the user story here.
+Add a list of related issues, if applicable_
