@@ -22,7 +22,7 @@ As a designer, I want to save a copy of my mapboards so I can see which areas ha
 _Add keys stakeholders who request the feature_
 
 **Applicable licenses and worflows**
-_License types:  Complimentary | Plus | Viewer/Editor|Creator/GIS Prof|All
+_License types:  Complimentary | Plus | Viewer/Editor | Creator/GIS Prof | All
 Workflows: AIX | non-AIX | Both_
 
 **Acceptance criteria**
