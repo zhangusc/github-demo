@@ -8,10 +8,13 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+_A clear and concise description of what the bug is._
+
+<details>
+  <summary>Details</summary>
 
 **Bug reporter**
-[Tech Support | End user | Esri staff | self/team]
+_[Tech Support, End user, Esri staff, self/team]_
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -21,10 +24,7 @@ Steps to reproduce the behavior:
 4. See error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+_A clear and concise description of what you expected to happen._
 
 **Environment**
  - OS: [Windows, macOS]
@@ -34,5 +34,10 @@ If applicable, add screenshots to help explain your problem.
  - ArcGIS organization: [Online 8.4 prd, 9.1 devext, Enterprise 10.9 build ###]
  - ArcGIS info (if applicable/useful): Org URL, test account, user type, test data (URL or attach file)
 
+**Screenshots**
+_If applicable, add screenshots to help explain your problem._
+
+
 **Additional context**
-Add any other context about the problem here.
+_Add any other context about the problem here._
+</details> 
