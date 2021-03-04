@@ -7,16 +7,23 @@ assignees: ''
 
 ---
 
-**Frame the user story in the following format**
-	[Persona]
-	has [use scenario]
-	with [frequency]
+**User story**
+As a [user persona] I want to [perform some task] so that I can [accomplish a particular goal]
 
-**End user goal:**
+<!-- EXAMPLE:
+As a designer, I want to save a copy of my mapboards so I can see which areas have been worked on from previous sessions for projects that require stitching together multiple map extents.
+-->
 
-**End business goal:**
+**End user goal**
 
-**Acceptance criteria:**
+
+**End business goal**
+
+
+**Number of user requests**
+
+
+**Acceptance criteria**
 
 
 **Task needed**
@@ -24,5 +31,10 @@ assignees: ''
 [ ] - Dev
 [ ] - Doc
 
+**Decisions**
+Add any important decision we make during the communication.
+
 **Additional context**
 Add any other context or screenshots for the user story here.
+Add a list related issues
+
