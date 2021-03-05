@@ -21,9 +21,9 @@ As a designer, I want to save a copy of my mapboards so I can see which areas ha
 **User requests**
 _Add keys stakeholders who request the feature_
 
-**Applicable licenses and worflows**
-License types:  [Complimentary, Plus, Viewer/Editor, Creator/GIS Prof, All]
-Workflows: [AIX, PDF, Both]
+**Applicable licenses and workflows**
+License types:  _[Complimentary, Plus, Viewer/Editor, Creator/GIS Prof, All]_
+Workflows: _[AIX, Non-AIX, Both]_
 
 **Acceptance criteria**
 
