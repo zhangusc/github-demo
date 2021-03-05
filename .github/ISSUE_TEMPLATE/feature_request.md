@@ -15,6 +15,9 @@ _As a [user persona] I want to [perform some task] so that I can [accomplish a p
 As a designer, I want to save a copy of my mapboards so I can see which areas have been worked on from previous sessions for projects that require stitching together multiple map extents.
 -->
 
+<details>
+  <summary>Details</summary>
+  
 **Business goal**
 
 
@@ -22,8 +25,8 @@ As a designer, I want to save a copy of my mapboards so I can see which areas ha
 _Add keys stakeholders who request the feature_
 
 **Applicable licenses and worflows**
-_License types:  Complimentary | Plus | Viewer/Editor | Creator/GIS Prof | All
-Workflows: AIX | non-AIX | Both_
+_License types:  [Complimentary | Plus | Viewer/Editor | Creator/GIS Prof | All]
+Workflows: [AIX | non-AIX | Both]
 
 **Acceptance criteria**
 
@@ -39,3 +42,5 @@ _Add important decisions we make during the communication._
 **Additional context**
 _Add any other context or screenshots for the user story here.
 Add a list of related issues, if applicable_
+
+</details>
