@@ -35,6 +35,9 @@ Steps to reproduce the behavior:
  - ArcGIS organization: [Online 8.4 prd, 9.1 devext, Enterprise 10.9 build ###]
  - ArcGIS info (if applicable/useful): Org URL, test account, user type, test data (URL or attach file)
 
+**Data path**
+_If applicable, add data to help reproduce your problem._
+
 **Screenshots**
 _If applicable, add screenshots to help explain your problem._
 
