@@ -21,7 +21,7 @@ _what difference it makes and what financial benefit it brings_
 **Stakeholders**
 _Add keys stakeholders who request the feature_
 
-**Applicable licenses and workflows**
+**Licenses and workflows**
 License types:  _[Complimentary, Plus, Viewer/Editor, Creator/GIS Prof, All]_
 Workflows: _[AIX, Non-AIX, Both]_
 
