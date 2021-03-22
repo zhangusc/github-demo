@@ -15,10 +15,10 @@ _As a [user persona] I want to [perform some task] so that I can [accomplish a p
 As a designer, I want to save a copy of my mapboards so I can see which areas have been worked on from previous sessions for projects that require stitching together multiple map extents.
 -->
 
-**Business goal**
+**Business value**
 
 
-**User requests**
+**Stakeholders**
 _Add keys stakeholders who request the feature_
 
 **Applicable licenses and workflows**
@@ -26,7 +26,7 @@ License types:  _[Complimentary, Plus, Viewer/Editor, Creator/GIS Prof, All]_
 Workflows: _[AIX, Non-AIX, Both]_
 
 **Acceptance criteria**
-
+- [ ] 
 
 **Tasks needed**
 - [ ] UI/UX
