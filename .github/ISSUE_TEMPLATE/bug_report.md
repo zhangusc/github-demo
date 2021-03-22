@@ -10,6 +10,10 @@ assignees: ''
 **Describe the bug**
 _A clear and concise description of what the bug is._
 
+
+**Expected behavior**
+_A clear and concise description of what you expected to happen._
+
 <details>
   <summary>Details</summary>
 
@@ -22,9 +26,6 @@ Steps to reproduce the behavior:
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
-
-**Expected behavior**
-_A clear and concise description of what you expected to happen._
 
 **Environment**
  - OS: [Windows, macOS]
