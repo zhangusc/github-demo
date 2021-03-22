@@ -16,7 +16,7 @@ As a designer, I want to save a copy of my mapboards so I can see which areas ha
 -->
 
 **Business value**
-
+_what difference it makes and what financial benefit it brings_
 
 **Stakeholders**
 _Add keys stakeholders who request the feature_
@@ -26,7 +26,7 @@ License types:  _[Complimentary, Plus, Viewer/Editor, Creator/GIS Prof, All]_
 Workflows: _[AIX, Non-AIX, Both]_
 
 **Acceptance criteria**
-- [ ] 
+_Add a list of acceptance criteria_
 
 **Tasks needed**
 - [ ] UI/UX
